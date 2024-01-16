@@ -1,11 +1,15 @@
 package com.example.realworldtableview;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.util.converter.IntegerStringConverter;
 import javafx.util.converter.LongStringConverter;
 
@@ -54,10 +58,21 @@ public class HelloController {
         score.setCellValueFactory(new PropertyValueFactory<UsNewsClass, Integer>("score"));
 
 
+
+        //Couldnt get image to work
+//        ObservableList<CustomImage> imgList = FXCollections.observableArrayList();
+//        CustomImage item_1 = new CustomImage(new ImageView(new Image("src/main/java/com/example/realworldtableview/test.png")));
+//        imgList.addAll(item_1);
+//
+//        TableColumn<CustomImage, ImageView> imageColumn = new TableColumn<CustomImage, ImageView>("Images");
+//        imageColumn.setCellValueFactory(new PropertyValueFactory<CustomImage, ImageView>("image"));
+
+
         CollegeRankingsTable.getColumns().add(collegeName);
         CollegeRankingsTable.getColumns().add(rank);
         CollegeRankingsTable.getColumns().add(Tuition);
         CollegeRankingsTable.getColumns().add(Enrollment);
+      //  CollegeRankingsTable.getColumns().add(imageColumn);
 
         UsNewsTable.getColumns().add(collegeName2);
         UsNewsTable.getColumns().add(rank2);
