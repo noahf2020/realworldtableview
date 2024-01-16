@@ -1,0 +1,292 @@
+1	Princeton University (NJ)	private	100
+2	Harvard University (MA)	private	96
+3	Columbia University (NY)	private	94
+3	Massachusetts Institute of Technology	private	94
+3	Yale University (CT)	private	94
+6	Stanford University (CA)	private	93
+6	University of Chicago	private	93
+6	University of Pennsylvania	private	93
+9	Northwestern University (IL)	private	92
+10	Duke University (NC)	private	91
+10	Johns Hopkins University (MD)	private	91
+12	California Institute of Technology	private	89
+12	Dartmouth College (NH)	private	89
+14	Brown University (RI)	private	86
+15	University of Notre Dame (IN)	private	84
+15	Vanderbilt University (TN)	private	84
+17	Cornell University (NY)	private	83
+17	Rice University (TX)	private	83
+19	Washington University in St. Louis	private	81
+20	University of California--Los Angeles	public	80
+21	Emory University (GA)	private	79
+22	University of California--Berkeley	public	78
+22	University of Southern California	private	78
+24	Georgetown University (DC)	private	77
+25	Carnegie Mellon University (PA)	private	75
+25	University of Michigan--Ann Arbor	public	75
+27	Wake Forest University (NC)	private	74
+28	University of Virginia	public	73
+29	Georgia Institute of Technology	public	72
+29	New York University	private	72
+29	Tufts University (MA)	private	72
+29	U. of North Carolina--Chapel Hill	public	72
+29	University of Rochester (NY)	private	72
+34	University of California--Santa Barbara	public	71
+34	University of Florida	public	71
+36	University of California--Irvine	public	70
+37	Boston College	private	69
+37	University of California--San Diego	public	69
+39	University of California--Davis	public	68
+40	Boston University	private	67
+40	Brandeis University (MA)	private	67
+40	Case Western Reserve Univ. (OH)	private	67
+40	College of William & Mary (VA)	public	67
+40	Northeastern University (MA)	private	67
+40	Tulane University (LA)	private	67
+46	Univ. of Wisconsin--Madison	public	65
+46	Villanova University (PA)	private	65
+48	University of Illinois--Urbana-Champaign	public	64
+48	University of Texas--Austin	public	64
+50	Lehigh University (PA)	private	63
+50	Pepperdine University (CA)	private	63
+50	Rensselaer Polytechnic Inst. (NY)	private	63
+50	University of Georgia	public	63
+54	Ohio State University--Columbus	public	62
+54	Santa Clara University (CA)	private	62
+54	Syracuse University (NY)	private	62
+57	Florida State University	public	61
+57	Pennsylvania State U.--Univ. Park	public	61
+57	Purdue University--West Lafayette (IN)	public	61
+57	University of Miami (FL)	private	61
+57	University of Pittsburgh	public	61
+62	Rutgers University--New Brunswick (NJ)	public	60
+62	University of Washington	public	60
+64	Loyola Marymount University (CA)	private	59
+64	Southern Methodist University (TX)	private	59
+64	University of Connecticut	public	59
+64	Univ. of Maryland--College Park	public	59
+64	Univ. of Massachusetts--Amherst	public	59
+64	Worcester Polytechnic Inst. (MA)	private	59
+70	Clemson University (SC)	public	58
+70	George Washington University (DC)	private	58
+70	Texas A&M University--College Station	public	58
+70	University of Minnesota--Twin Cities	public	58
+74	Fordham University (NY)	private	57
+74	Stevens Institute of Technology (NJ)	private	57
+74	Virginia Tech	public	57
+77	American University (DC)	private	56
+77	Brigham Young Univ.--Provo (UT)	private	56
+79	Baylor University (TX)	private	55
+79	Binghamton University--SUNY	public	55
+79	Gonzaga University (WA)	private	55
+79	Indiana University--Bloomington	public	55
+79	University at Buffalo--SUNY	public	55
+84	Colorado School of Mines	public	54
+84	Elon University (NC)	private	54
+84	Marquette University (WI)	private	54
+84	Michigan State University	public	54
+84	North Carolina State U.--Raleigh	public	54
+84	University of California--Santa Cruz	public	54
+84	University of Iowa	public	54
+91	Clark University (MA)	private	53
+91	Miami University--Oxford (OH)	public	53
+91	Stony Brook--SUNY	public	53
+91	University of California--Riverside	public	53
+91	University of Delaware	public	53
+91	University of San Diego	private	53
+97	Drexel University (PA)	private	52
+97	New Jersey Inst. of Technology	public	52
+97	Saint Louis University	private	52
+97	Texas Christian University	private	52
+97	University of Denver	private	52
+97	University of San Francisco	private	52
+97	Yeshiva University (NY)	private	52
+104	Auburn University (AL)	public	51
+104	Creighton University (NE)	private	51
+104	Howard University (DC)	private	51
+104	Loyola University Chicago	private	51
+104	Rochester Inst. of Technology (NY)	private	51
+104	Temple University (PA)	public	51
+104	University of California--Merced	public	51
+104	University of Colorado--Boulder	public	51
+104	University of Oregon	public	51
+104	Univ. of South Carolina	public	51
+104	University of South Florida	public	51
+104	University of Tennessee	public	51
+104	University of Utah	public	51
+117	Arizona State University--Tempe	public	50
+117	Clarkson University (NY)	private	50
+117	Illinois Institute of Technology	private	50
+117	University of Arizona	public	50
+121	Iowa State University	public	49
+121	SUNY Col. of Envir. Sci. and Forestry	public	49
+121	University of Tulsa (OK)	private	49
+121	University of Vermont	public	49
+125	Chapman University (CA)	private	48
+125	DePaul University (IL)	private	48
+125	Simmons University (MA)	private	48
+125	University of New Hampshire	public	48
+125	University of the Pacific (CA)	private	48
+130	Drake University (IA)	private	47
+130	University of Kansas	public	47
+132	Duquesne University (PA)	private	46
+132	Rutgers University--Newark (NJ)	public	46
+132	University of Dayton (OH)	private	46
+132	University of Illinois--Chicago	public	46
+132	University of Kentucky	public	46
+132	University of La Verne (CA)	private	46
+132	University of Oklahoma	public	46
+139	The Catholic University of America (DC)	private	45
+139	Oregon State University	public	45
+139	Seattle University	private	45
+139	Seton Hall University (NJ)	private	45
+139	University of Cincinnati	public	45
+139	Univ. of Missouri	public	45
+139	Univ. of Nebraska--Lincoln	public	45
+139	University of St. Thomas (MN)	private	45
+147	Michigan Technological University	public	44
+147	Samford University (AL)	private	44
+147	San Diego State University	public	44
+147	University at Albany--SUNY	public	44
+147	University of St. Joseph (CT)	private	44
+147	University of Texas--Dallas	public	44
+153	George Mason University (VA)	public	43
+153	Louisiana State University--Baton Rouge	public	43
+153	Mercer University (GA)	private	43
+153	The New School (NY)	private	43
+153	Quinnipiac University (CT)	private	43
+153	Thomas Jefferson University (PA)	private	43
+153	University of Alabama	public	43
+153	University of Arkansas	public	43
+153	Valparaiso University (IN)	private	43
+162	Hofstra University (NY)	private	42
+162	Kansas State University	public	42
+162	University of Mississippi	public	42
+162	Virginia Commonwealth University	public	42
+166	Adelphi University (NY)	private	41
+166	Belmont University (TN)	private	41
+166	Colorado State University	public	41
+166	Montclair State University (NJ)	public	41
+166	Rowan University (NJ)	public	41
+166	Rutgers University--Camden (NJ)	public	41
+166	St. John Fisher College (NY)	private	41
+166	University of Alabama--Birmingham	public	41
+166	University of Central Florida	public	41
+166	University of Hawaii--Manoa	public	41
+166	Univ. of Maryland--Baltimore County	public	41
+166	University of Rhode Island	public	41
+166	Washington State University	public	41
+179	Gallaudet University (DC)	private	40
+179	Missouri Univ. of Science & Tech--Rolla.	public	40
+179	St. John's University (NY)	private	40
+179	University of Detroit Mercy	private	40
+179	University of Idaho	public	40
+179	Univ. of Massachusetts--Lowell	public	40
+185	Biola University (CA)	private	39
+185	Chatham University (PA)	private	39
+185	Ohio University	public	39
+185	Pacific University (OR)	private	39
+185	Union University (TN)	private	39
+185	University of Houston	public	39
+185	University of North Carolina--Wilmington	public	39
+192	Ball State University (IN)	public	38
+192	Misericordia University (PA)	private	38
+192	Oklahoma State University	public	38
+192	Seattle Pacific University	private	38
+192	University of Louisville (KY)	public	38
+197	Bellarmine University (KY)	private	37
+197	Bethel University (MN)	private	37
+197	Illinois State University	public	37
+197	Loyola University New Orleans	private	37
+197	Towson University (MD)	public	37
+202	Edgewood College (WI)	private	36
+202	Florida Institute of Technology	private	36
+202	Maryville Univ. of St. Louis	private	36
+202	Pace University (NY)	private	36
+202	Regis University (CO)	private	36
+202	Robert Morris University (PA)	private	36
+202	University of Maine	public	36
+202	University of St. Francis (IL)	private	36
+202	Widener University (PA)	private	36
+211	California State University--Fresno	public	35
+211	Georgia State University	public	35
+211	Immaculata University (PA)	private	35
+211	Kent State University (OH)	public	35
+211	Mississippi State University	public	35
+211	University of Hartford (CT)	private	35
+211	Wilkes University (PA)	private	35
+218	Clarke University (IA)	private	34
+218	Florida International University	public	34
+218	Gannon University (PA)	private	34
+218	Hampton University (VA)	private	34
+218	Lipscomb University (TN)	private	34
+218	Sacred Heart University (CT)	private	34
+218	Texas Tech University	public	34
+218	Univ. of Massachusetts--Dartmouth	public	34
+218	University of New Mexico	public	34
+218	Western New England University (MA)	private	34
+228	Azusa Pacific University (CA)	private	33
+228	CUNY--City College	public	33
+228	East Carolina University (NC)	public	33
+228	Grand Valley State University (MI)	public	33
+228	Indiana University-Purdue University--Indianapolis	public	33
+228	The Sage Colleges (NY)	private	33
+228	St. Catherine University (MN)	private	33
+228	University of Indianapolis	private	33
+228	Univ. of Massachusetts--Boston	public	33
+228	U. of North Carolina--Charlotte	public	33
+228	University of Wyoming	public	33
+228	West Virginia University	public	33
+240	Central Michigan University	public	32
+240	Harding University (AR)	private	32
+240	Long Island University (NY)	private	32
+240	Oklahoma City University	private	32
+240	University of Findlay (OH)	private	32
+240	University of Nevada--Reno	public	32
+246	Bowling Green State University (OH)	public	31
+246	George Fox University (OR)	private	31
+246	Lesley University (MA)	private	31
+246	Montana State University	public	31
+246	Nova Southeastern University (FL)	private	31
+246	University of New England (ME)	private	31
+246	Wayne State University (MI)	public	31
+246	Western Michigan University	public	31
+254	Baker University (KS)	private	30
+254	College of St. Scholastica (MN)	private	30
+254	D'Youville College (NY)	private	30
+254	Florida A&M University	public	30
+254	Lincoln Memorial University (TN)	private	30
+254	Southern Illinois University--Carbondale	public	30
+254	University of Colorado--Denver	public	30
+254	University of Montana	public	30
+254	Utah State University	public	30
+263	Daemen College (NY)	private	29
+263	New Mexico State University	public	29
+263	Old Dominion University (VA)	public	29
+263	Shenandoah University (VA)	private	29
+263	University of Alabama--Huntsville	public	29
+263	University of Alaska--Fairbanks	public	29
+263	Univ. of Missouri--Kansas City	public	29
+263	University of North Dakota	public	29
+263	University of South Dakota	public	29
+272	Campbell University (NC)	private	28
+272	Keiser University (FL)	private	28
+272	Louisiana Tech University	public	28
+272	Mary Baldwin University (VA)	private	28
+272	South Dakota State University	public	28
+272	Tennessee Technological Univ.	public	28
+272	University of Memphis	public	28
+272	U. of North Carolina--Greensboro	public	28
+272	University of the Incarnate Word (TX)	private	28
+281	Concordia University Wisconsin	private	27
+281	Dallas Baptist University	private	27
+281	Florida Atlantic University	public	27
+281	Gardner-Webb University (NC)	private	27
+281	North Carolina A&T State Univ.	public	27
+281	North Dakota State University	public	27
+281	Regent University (VA)	private	27
+281	Sam Houston State University (TX)	public	27
+281	Univ. of Missouri--St. Louis	public	27
+281	University of North Florida	public	27
+281	University of North Texas	public	27
+281	William Carey University (MS)	private	27
