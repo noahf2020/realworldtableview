@@ -3,6 +3,7 @@ package com.example.realworldtableview;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -13,8 +14,9 @@ import javafx.scene.image.ImageView;
 import javafx.util.converter.IntegerStringConverter;
 import javafx.util.converter.LongStringConverter;
 
-import java.io.File;
-import java.io.SyncFailedException;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class HelloController {
@@ -23,6 +25,7 @@ public class HelloController {
     public TableView UsNewsTable;
     public TableView CollegeRankingsTable;
 
+    public Button save;
 
     @FXML
     protected void onHelloButtonClick() {
@@ -61,7 +64,11 @@ public class HelloController {
 
         //Couldnt get image to work
 //        ObservableList<CustomImage> imgList = FXCollections.observableArrayList();
+//        Image test = new Image("src/main/java/com/example/realworldtableview/test.png");
+//        System.out.println(test);
+//
 //        CustomImage item_1 = new CustomImage(new ImageView(new Image("src/main/java/com/example/realworldtableview/test.png")));
+//        System.out.println(item_1);
 //        imgList.addAll(item_1);
 //
 //        TableColumn<CustomImage, ImageView> imageColumn = new TableColumn<CustomImage, ImageView>("Images");
@@ -139,34 +146,55 @@ public class HelloController {
         }
     }
 
+    public void save() throws Exception{
+        FileOutputStream outputStream = new FileOutputStream("data");
+        ObjectOutputStream objOutputStream = new ObjectOutputStream(outputStream);
+        ObservableList<CollegeRankings> activities = CollegeRankingsTable.getItems();
+        objOutputStream.writeInt(activities.size());
+        for (CollegeRankings activity : activities) {
+            objOutputStream.writeObject(activity);
+        }
+        objOutputStream.flush();
+        objOutputStream.close();
+        outputStream.close();
+
+
+        FileOutputStream outputStream1 = new FileOutputStream("data1");
+        ObjectOutputStream objOutputStream1 = new ObjectOutputStream(outputStream1);
+        ObservableList<UsNewsClass> activities1 = UsNewsTable.getItems();
+        objOutputStream1.writeInt(activities1.size());
+        for (UsNewsClass activity : activities1) {
+            objOutputStream1.writeObject(activity);
+        }
+        objOutputStream1.flush();
+        objOutputStream1.close();
+        outputStream1.close();
+    }
+
+
     void restore() throws Exception {
-        File dataFile = new File("src/main/java/com/example/realworldtableview/CollegeRankingData");
-        Scanner dataScanner = new Scanner(dataFile);
-        dataScanner.useDelimiter("\t|\n");
-
-        while (dataScanner.hasNext()) {
-
-            String CollegeName = dataScanner.next();
-            int Adj = dataScanner.nextInt();
-            long Tuition = dataScanner.nextLong();
-            String Enrollment = dataScanner.next();
-            CollegeRankingsTable.getItems().add(new CollegeRankings(CollegeName, Adj, Tuition, Enrollment));
-
+        FileInputStream inputStream = new FileInputStream("data");
+        ObjectInputStream objInputStream = new ObjectInputStream(inputStream);
+        int numOfSavedObjects = objInputStream.readInt();
+        List<CollegeRankings> activities = new ArrayList<>();
+        for (int i = 0; i < numOfSavedObjects; i++) {
+            CollegeRankings activity = (CollegeRankings) objInputStream.readObject();
+            activities.add(activity);
         }
+        objInputStream.close();
+        inputStream.close();
+        CollegeRankingsTable.getItems().addAll(activities);
 
-        File dataFile2 = new File("src/main/java/com/example/realworldtableview/UsNewsRankingData");
-        Scanner dataScanner2 = new Scanner(dataFile2);
-        dataScanner2.useDelimiter("\t|\n");
-
-        while (dataScanner2.hasNext()) {
-            int Adj = dataScanner2.nextInt();
-            String CollegeName = dataScanner2.next();
-            String Status = dataScanner2.next();
-            int Score = dataScanner2.nextInt();
-            UsNewsTable.getItems().add(new UsNewsClass(CollegeName,Adj,Status,Score));
-
-
+        FileInputStream inputStream2 = new FileInputStream("data1");
+        ObjectInputStream objInputStream2 = new ObjectInputStream(inputStream2);
+        int numOfSavedObjects2 = objInputStream2.readInt();
+        List<UsNewsClass> activities2 = new ArrayList<>();
+        for (int i = 0; i < numOfSavedObjects2; i++) {
+            UsNewsClass r = (UsNewsClass) objInputStream2.readObject();
+            activities2.add(r);
         }
-
+        objInputStream2.close();
+        inputStream2.close();
+        UsNewsTable.getItems().addAll(activities2);
     }
 }

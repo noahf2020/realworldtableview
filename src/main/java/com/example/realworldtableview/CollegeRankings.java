@@ -1,8 +1,9 @@
 package com.example.realworldtableview;
 
+import java.io.Serializable;
 import java.util.Scanner;
 import java.io.File;
-public class CollegeRankings{
+public class CollegeRankings implements Serializable {
 
 
     private long Tuition;

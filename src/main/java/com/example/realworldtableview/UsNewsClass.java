@@ -1,9 +1,10 @@
 package com.example.realworldtableview;
 
 import java.io.File;
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class UsNewsClass {
+public class UsNewsClass implements Serializable {
     private String Status;
     private int Score;
     private String collegeName;
